@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&display=swap');
+
+* {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    background: rgb(164, 215, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+
+}
+
+.cont {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    /* max-width: 1350px; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* opacity: 60%; */
+    border: 10px solid white;
+}
+
+
+
+.form-label {
+    color: black;
+    font-size: 45px;
+    width: 100%;
+    font-family: 'Martian Mono', monospace;
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    background: rgb(164, 215, 65);
+    border: 2px solid white;
+
+    width: 200px;
+}
+
+#heading {
+    font-family: 'Martian Mono', monospace;
+}
